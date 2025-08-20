@@ -1,5 +1,6 @@
 public class App {
     public static void main(String[] args) {
+        //Alterei os testes e funcionou bem
         Validador v1 = ValidadorFactory.criarValidador("email");
         System.out.println(v1.valida(Validador.Tipo.EMAIL, "teste@email.com")); 
 
